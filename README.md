@@ -1,7 +1,7 @@
 ![Screenshot](nvchad-neovim.png)
 https://www.youtube.com/watch?v=TNRFegMqbWA
-# Installing NvChad Version 2.5
-## Backup and remove old nvim config.
+# NvChad-Nurini o'rnatish
+## Eski neovim konfiguratsiyasini saqlash yoki o'chirish.
 Eski neovim konfiguratsiyasini saqlash.
 ```bash
 mv ~/.config/nvim ~/.config/nvim-old
@@ -15,7 +15,7 @@ local/state va local/share papkalarini o'chirib tashlash (tavsiya qilaman)
 rm -rf ~/.local/state/nvim
 rm -rf ~/.local/share/nvim
 ```
-## Install NvChad.
+## NvChad-Nurini o'rnatish.
 kerakli dastrularni o'rnatish.
 ```bash
 sudo pacman -S --needed neovim unzip luarocks xclip wl-clipboard npm
@@ -38,7 +38,7 @@ Original konfiguratsiya bu yerda https://github.com/NvChad/NvChad/blob/v2.5/lua/
 ```lua
 -- local o = vim.o
 ```
-To this.
+Mana bunday.
 ```lua
 local o = vim.o
 
